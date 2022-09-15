@@ -1,0 +1,29 @@
+{
+    "city": [
+        {"id":1, "name":"Хальмар", "distanse":0},
+        {"id":2, "name":"Саргот", "distanse":0},
+        {"id":3, "name":"Джелкала", "distanse":0},
+        {"id":4, "name":"Дирим", "distanse":0},
+        {"id":5, "name":"Курав", "distanse":0},
+        {"id":6, "name":"Ахмеррад", "distanse":0}
+    ],
+    "product": [
+        {"id":1,"name":"Мясо","state":"normal","price":12, "size":3},
+        {"id":2,"name":"Суховрукты","state":"normal","price":8, "size":3},
+        {"id":3,"name":"Зерно","state":"normal","price":4, "size":2},
+        {"id":4,"name":"Мука","state":"normal","price":6, "size":1},
+        {"id":5,"name":"Ткани","state":"normal","price":21, "size":2},
+        {"id":6,"name":"Краска","state":"normal","price":15, "size":3},
+        {"id":7,"name":"Помидоры","state":"normal","price":5, "size":1}
+    ],
+    "event": [
+        {"id":1, "name": "Обычный день", "random":false,"speed":0},
+        {"id":2, "name": "Дождь", "random":false,"speed":-2, "randomevent":"productLose"},
+        {"id":3, "name": "Ровная дорога", "random":false,"speed":2}, 
+        {"id":4, "name": "Телега сломалась", "random":false, "speed":null}, 
+        {"id":5, "name": "Река", "random":false,"speed":[1,2]},
+        {"id":6, "name": "Встретил местного", "random":false,"speed":[3,4,5,6]},
+        {"id":7, "name": "Разбойники", "random":true,"randomevent":"thiefs"}, 
+        {"id":8, "name": "Таверна", "random":true,"randomevent":"tavern"}
+    ]
+}
